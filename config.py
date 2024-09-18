@@ -1,19 +1,24 @@
+BASE_URL = "https://jobs.dou.ua/vacancies/"
+
+SEARCH_QUERY = "python"
+
+MAX_PAGES = 5
+
 TECHNOLOGIES = [
     "Django",
     "Flask",
     "PostgreSQL",
     "MySQL",
-    "JavaScript",
-    "React",
-    "Vue",
     "Docker",
     "Kubernetes",
     "AWS",
     "Azure",
+    "Machine Learning",
+    "Data Science",
+    "REST",
+    "GraphQL"
 ]
 
-SCRAPE_CONFIG = {
-    "BASE_URL": "https://jobs.dou.ua/vacancies/",
-    "SEARCH_QUERY": "python",
-    "MAX_PAGES": 50,
+HEADERS = {
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Wind64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
