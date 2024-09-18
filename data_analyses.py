@@ -20,4 +20,5 @@ def analyze_vacancies(vacancies):
 if __name__ == "__main__":
     from scraper import scrape_djinni_vacancies
     jobs = scrape_djinni_vacancies()
+    print(jobs)
     analyze_vacancies(jobs)
