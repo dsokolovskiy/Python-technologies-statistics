@@ -2,10 +2,11 @@ import requests
 
 from bs4 import BeautifulSoup
 
+from config import DJINNI_URL
+
 
 def scrape_djinni_vacancies():
-    url = "https://djinni.co/jobs/?primary_keyword=python"
-    response = requests.get(url)
+    response = requests.get(DJINNI_URL)
     soup = BeautifulSoup(response.text, "html.parser")
 
     vacancies = []
