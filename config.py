@@ -2,7 +2,7 @@ BASE_URL = "https://jobs.dou.ua/vacancies/"
 
 SEARCH_QUERY = "python"
 
-MAX_PAGES = 5
+MAX_PAGES = 20
 
 TECHNOLOGIES = [
     "Django",
@@ -20,5 +20,6 @@ TECHNOLOGIES = [
 ]
 
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Wind64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
+    "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Wind64; x64)"
+                  "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"
 }
